@@ -24,7 +24,7 @@
 -- =====================================================================
 -- Datastore Configuration: DEV Environment
 -- Environment: DEV
--- Generated: 2026-02-12
+-- Generated: 2026-06-01
 -- =====================================================================
 -- Purpose:
 --   Register all Fabric datastores (Lakehouses, Warehouses) for the DEV environment.
@@ -56,14 +56,6 @@
 -- =====================================================================
 TRUNCATE TABLE dbo.Datastore_Configuration;
 
--- METADATA ********************
-
--- META {
--- META   "language": "sql",
--- META   "language_group": "sqldatawarehouse"
--- META }
-
--- CELL ********************
 
 -- =====================================================================
 -- STEP 2: Insert DEV environment datastore configuration
